@@ -104,6 +104,11 @@ case "$1" in
 	echo DEVICE=hammerhead >> .tmp-config &&
 	repo_sync nexus-5-l
 	;;
+	
+"moto-e")
+	echo DEVICE=condor >> .tmp-config &&
+	repo_sync moto-e
+	;;
 
 "nexus-6-l")
 	echo DEVICE=shamu >> .tmp-config &&
