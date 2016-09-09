@@ -30,7 +30,7 @@ case `uname` in
 	exit -1
 esac
 
-GITREPO=${GITREPO:-"git://github.com/mozilla-b2g/b2g-manifest"}
+GITREPO=${GITREPO:-"git://github.com/icyphox/b2g-manifest"}
 BRANCH=${BRANCH:-master}
 
 while [ $# -ge 1 ]; do
@@ -248,6 +248,7 @@ case "$1" in
 	echo Valid devices to configure are:
 	echo - galaxy-s2
 	echo - galaxy-nexus
+	echo - moto-e
 	echo - nexus-4
 	echo - nexus-4-kk
 	echo - nexus-5
